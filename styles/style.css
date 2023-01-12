@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* predefined classes */
+
+.light-white-bg
+{
+    background-color: #FAFAFA;;
+}
+.light-golden-bg
+{
+    background-color: #FFF4D6;
+}
+.light-redish-bg
+{
+    background-color: rgba(255, 89, 89, 0.1);
+}
+.light-blueish-bg
+{
+    background-color: rgba(79, 157, 166, 0.1);
+}
+.text-primary
+{
+    color: #121212;
+}
+.text-sub
+{
+    color: #707070;
+}
+.text-redish
+{
+    color: #FF5959;
+}
+.box-border
+{
+    border: 2px solid #FF5959;
+}
+.primary-btn
+{
+    background-color: #FF5959;
+    color: #ffffff;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+    padding: 16px 20px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.opt-btn
+{
+    background: none;
+    color: #707070;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+    padding: 16px 20px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.section-title
+{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+.section-subtitle
+{
+    width: 680px;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 20px auto;
+    text-align: center;
+}
+section
+{
+    margin-top: 130px;
+}
+/* header and banner styles */
+
+.header
+{
+    background-image: url("../images/frame1.png");
+    background-repeat: no-repeat;
+    background-position: bottom right 50px;
+    background-size: 840px;
+}
+.banner
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 45px;
+    padding: 0 150px;
+}
+.banner-texts
+{
+    width: 500px;
+}
+.banner_title
+{
+    font-size: 65px;
+    font-weight: 700;
+}
+.banner_subtitle
+{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.header img{
+    width: 480px;
+    height: 640px;
+}
+.banner_btns
+{
+    display: flex;
+    gap: 8px;
+}
+
+/* main tag styles */
+main
+{
+    padding: 0 200px;
+}
+
+/* donate today styles */
+.donate-today
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.donate-amounts
+{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.donate-amount
+{
+    padding: 40px 25px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+.donate-today input
+{
+    display: block;
+    width: 680px;
+    height: 40px;
+    border: 0;
+    border-bottom: 1px solid #DADADA;
+    outline: none;
+    text-align: center;
+    padding: 0 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #b3b3b3;
+}
+.donate-today hr
+{
+    border: 1px solid #DADADA;
+}
+
+/* donation palns */
+.donate-plans-cards
+{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.plan-card
+{
+    padding: 60px 25px;
+    border-radius: 5px;
+}
+.card-title
+{
+    margin-top: 16px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 24px;
+}
